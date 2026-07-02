@@ -81,29 +81,32 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* Card 1 */}
             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
               <span className="text-xs font-bold text-amber-600 uppercase">Site Utilities</span>
               <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Anti Slip Tapes</h4>
               <p className="text-xs text-slate-500 mb-4">Heavy-duty anti-slip tapes, convex mirrors, and heavy rubber speed humps for warehouses.</p>
-              <a href="/blog/anti-slip-tape-supplier-abu-dhabi" className="text-sm font-bold text-slate-900 hover:text-amber-600 inline-flex items-center gap-1">
+              <a href="/blog/anti-slip-tape-supplier-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1">
                 Read SEO Buying Guide &rarr;
               </a>
             </div>
 
+            {/* Card 2 (Updated with Traffic Cones Blog Link) */}
             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
-              <span className="text-xs font-bold text-amber-600 uppercase">PPE Equipment</span>
-              <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Personal Protective Gear</h4>
-              <p className="text-xs text-slate-500 mb-4">Safety helmets, high-grade vests, gloves, goggles, and fall arresters for industrial workers.</p>
-              <a href="#" className="text-sm font-bold text-slate-900 hover:text-amber-600 inline-flex items-center gap-1">
-                Coming Soon &rarr;
+              <span className="text-xs font-bold text-amber-600 uppercase">Traffic Management</span>
+              <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Traffic Cones & Barriers</h4>
+              <p className="text-xs text-slate-500 mb-4">High-visibility reflective PVC traffic cones, warning bollards, and flexible road barricades.</p>
+              <a href="/blog/traffic-safety-cones-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1">
+                Read SEO Buying Guide &rarr;
               </a>
             </div>
 
+            {/* Card 3 */}
             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
               <span className="text-xs font-bold text-amber-600 uppercase">Emergency Care</span>
               <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">First Aid Boxes & Kits</h4>
               <p className="text-xs text-slate-500 mb-4">Fully equipped industrial first aid boxes, eye wash stations, and heavy emergency stretchers.</p>
-              <a href="#" className="text-sm font-bold text-slate-900 hover:text-amber-600 inline-flex items-center gap-1">
+              <a href="#" className="text-sm font-bold text-slate-400 inline-flex items-center gap-1 cursor-not-allowed">
                 Coming Soon &rarr;
               </a>
             </div>
