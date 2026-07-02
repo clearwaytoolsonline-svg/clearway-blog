@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 
 // Abu Dhabi Local SEO Keywords constants
