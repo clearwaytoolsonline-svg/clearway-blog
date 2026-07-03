@@ -103,7 +103,7 @@ export default function SafetyHarnessBlog() {
         <div className="bg-slate-900 text-white p-8 rounded-2xl text-center mt-12 shadow-xl">
           <h3 className="text-xl md:text-2xl font-bold mb-2">Request a Bulk Quote for Safety Harnesses</h3>
           <p className="text-slate-400 text-sm mb-6 max-w-xl mx-auto">
-            Equip your high-altitude structural crews with certified fall protection kits. Contact Clearway Safety&apos;s wholesale department in Abu Dhabi today to secure corporate discount prices and direct project site deliveries.
+            Equip your high altitude structural crews with certified fall protection kits. Contact Clearway Safety wholesale department in Abu Dhabi today to secure corporate discount prices and direct project site deliveries.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="https://wa.me/971501234567" className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-3 rounded-lg transition text-sm">
