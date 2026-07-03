@@ -35,7 +35,7 @@ export default function Home() {
       <section className="bg-slate-900 text-white text-center py-20 px-6">
         <h1 className="text-4xl font-black mb-4">Premium Industrial Safety Products & PPE</h1>
         <p className="text-xl mb-8">Wholesale & Retail Supplier in Abu Dhabi</p>
-        <button className="bg-amber-500 text-black font-bold px-8 py-3 rounded">Explore 60+ Safety Products</button>
+        <button className="bg-amber-500 text-black font-bold px-8 py-3 rounded">Explore 5000+ Safety Products</button>
       </section>
 
       {/* 3. Features Section */}
