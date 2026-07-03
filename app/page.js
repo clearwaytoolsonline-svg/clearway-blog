@@ -80,7 +80,7 @@ export default function Home() {
             <p className="text-slate-600 mt-2">Professional Industrial Equipment Catalog</p>
           </div>
 
-          {/* Flexible Grid Layout (Perfect 4x2 Grid on Large Screens) */}
+          {/* Flexible Grid Layout */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             
             {/* Card 1 */}
@@ -175,6 +175,18 @@ export default function Home() {
                 <p className="text-xs text-slate-500 mb-4">Certified steel-toe protective boots and puncture-resistant safety footwear built for rugged construction environments.</p>
               </div>
               <a href="/blog/industrial-safety-shoes-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
+                Explore Range and Specifications →
+              </a>
+            </div>
+
+            {/* Card 9 (New Reflective Safety Vests Card) */}
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-amber-600 uppercase">High-Vis Apparel</span>
+                <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Reflective Safety Vests</h4>
+                <p className="text-xs text-slate-500 mb-4">Premium high-visibility mesh vests, executive jackets, and corporate-branded safety apparel with intense retro-reflective stripping.</p>
+              </div>
+              <a href="/blog/reflective-safety-vests-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
                 Explore Range and Specifications →
               </a>
             </div>
