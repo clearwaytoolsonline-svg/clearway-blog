@@ -80,8 +80,8 @@ export default function Home() {
             <p className="text-slate-600 mt-2">Professional Industrial Equipment Catalog</p>
           </div>
 
-          {/* 4-Card Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* Flexible Grid Layout for 5+ Cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             
             {/* Card 1 */}
             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
@@ -127,6 +127,18 @@ export default function Home() {
                 <p className="text-xs text-slate-500 mb-4">Certified industrial safety helmets, high-visibility reflective vests, and safety gloves.</p>
               </div>
               <a href="/blog/ppe-safety-helmet-vest-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
+                Explore Range & Specifications &rarr;
+              </a>
+            </div>
+
+            {/* Card 5 (New Wheel Chocks Card) */}
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-amber-600 uppercase">Warehouse & Fleet</span>
+                <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Heavy Duty Wheel Chocks</h4>
+                <p className="text-xs text-slate-500 mb-4">Premium slip-resistant rubber vehicle stabilization blocks for transport fleets and logistics trucks.</p>
+              </div>
+              <a href="/blog/heavy-duty-wheel-chocks-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
                 Explore Range & Specifications &rarr;
               </a>
             </div>
