@@ -1,34 +1,51 @@
 export default function Home() {
-  const products = [
-    { title: "Anti Slip Tapes", category: "SITE UTILITIES", link: "/blog/anti-slip-tape-supplier-abu-dhabi" },
-    { title: "Traffic Cones & Barriers", category: "TRAFFIC MANAGEMENT", link: "/blog/traffic-safety-cones-abu-dhabi" },
-    { title: "First Aid Boxes & Kits", category: "EMERGENCY CARE", link: "/blog/first-aid-box-supplier-abu-dhabi" },
-    { title: "PPE Equipment", category: "PERSONAL PROTECTION", link: "/blog/ppe-safety-helmet-vest-abu-dhabi" },
-    { title: "Heavy Duty Wheel Chocks", category: "WAREHOUSE AND FLEET", link: "/blog/heavy-duty-wheel-chocks-abu-dhabi" },
-    { title: "Safety Warning Flags", category: "SITE VISIBILITY", link: "/blog/safety-warning-flags-abu-dhabi" },
-    { title: "Industrial Convex Mirrors", category: "SITE SURVEILLANCE", link: "/blog/industrial-convex-mirrors-abu-dhabi" },
-    { title: "Industrial Safety Shoes", category: "WORKFORCE SAFETY", link: "/blog/industrial-safety-shoes-abu-dhabi" },
-    { title: "Reflective Safety Vests", category: "HIGH-VIS APPAREL", link: "/blog/reflective-safety-vests-abu-dhabi" },
-    { title: "Safety Harness & Gear", category: "FALL PROTECTION", link: "/blog/safety-harness-fall-protection-abu-dhabi" }
-  ];
-
   return (
     <main className="min-h-screen bg-slate-50">
-      <div className="max-w-7xl mx-auto py-16 px-6">
-        <h2 className="text-3xl font-black text-slate-900 mb-12 text-center tracking-tight">Our Comprehensive Safety Range</h2>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {products.map((item, index) => (
-            <div key={index} className="bg-white p-8 rounded-xl border border-slate-200 shadow-sm hover:shadow-lg transition-all">
-              <span className="text-[10px] font-bold text-amber-600 tracking-widest uppercase">{item.category}</span>
-              <h4 className="text-xl font-black text-slate-900 mt-2 mb-4">{item.title}</h4>
-              <a href={item.link} className="text-sm font-bold text-emerald-700 hover:text-emerald-800 flex items-center gap-1">
-                Explore Product Details →
-              </a>
-            </div>
-          ))}
+      {/* 1. Header & Top Bar */}
+      <header className="bg-white border-b">
+        <div className="bg-amber-400 text-center py-1 text-sm font-bold">Leading Wholesale & Retail Safety Equipment Supplier across Abu Dhabi & UAE</div>
+        <div className="max-w-7xl mx-auto p-6 flex justify-between items-center">
+          <div className="font-black text-2xl text-slate-800">CLEARWAY <span className="text-amber-500">SAFETY</span></div>
+          <nav className="flex gap-6 font-bold">
+            <a href="#">Our Products</a>
+            <a href="#">Why Choose Us</a>
+          </nav>
+          <button className="bg-emerald-600 text-white px-4 py-2 rounded">Get Wholesale Quote</button>
         </div>
-      </div>
+      </header>
+
+      {/* 2. Hero Section */}
+      <section className="bg-slate-900 text-white text-center py-20 px-6">
+        <h1 className="text-4xl font-black mb-4">Premium Industrial Safety Products & PPE</h1>
+        <p className="text-xl mb-8">Wholesale & Retail Supplier in Abu Dhabi</p>
+        <button className="bg-amber-500 text-black font-bold px-8 py-3 rounded">Explore 60+ Safety Products</button>
+      </section>
+
+      {/* 3. Features Section */}
+      <section className="max-w-7xl mx-auto py-12 px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="bg-white p-6 border rounded shadow-sm"><strong>01 Wholesale Pricing</strong></div>
+        <div className="bg-white p-6 border rounded shadow-sm"><strong>02 Rapid Abu Dhabi Delivery</strong></div>
+        <div className="bg-white p-6 border rounded shadow-sm"><strong>03 Certified Quality Tools</strong></div>
+      </section>
+
+      {/* 4. Product Range Section */}
+      <section className="max-w-7xl mx-auto py-12 px-6">
+        <h2 className="text-2xl font-bold text-center mb-8">Our Comprehensive Safety Range</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {/* Card 1 */}
+          <div className="bg-white p-6 border rounded">
+            <span className="text-xs text-amber-600 font-bold">SITE UTILITIES</span>
+            <h3 className="font-bold text-lg mt-1">Anti Slip Tapes</h3>
+            <a href="#" className="text-emerald-600 text-sm font-bold">Explore Product Details →</a>
+          </div>
+          {/* Add more cards here following the same structure */}
+        </div>
+      </section>
+
+      {/* 5. Footer */}
+      <footer className="bg-slate-900 text-white p-6 text-sm text-center mt-12">
+        © 2026 Clearway Safety & General Trading L.L.C
+      </footer>
     </main>
   );
 }
