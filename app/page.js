@@ -91,7 +91,7 @@ export default function Home() {
               </a>
             </div>
 
-            {/* Card 2 (Updated with Traffic Cones Blog Link) */}
+            {/* Card 2 */}
             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
               <span className="text-xs font-bold text-amber-600 uppercase">Traffic Management</span>
               <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Traffic Cones & Barriers</h4>
@@ -101,13 +101,13 @@ export default function Home() {
               </a>
             </div>
 
-            {/* Card 3 */}
+            {/* Card 3 (Updated with First Aid Kit Blog Link) */}
             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
               <span className="text-xs font-bold text-amber-600 uppercase">Emergency Care</span>
               <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">First Aid Boxes & Kits</h4>
               <p className="text-xs text-slate-500 mb-4">Fully equipped industrial first aid boxes, eye wash stations, and heavy emergency stretchers.</p>
-              <a href="#" className="text-sm font-bold text-slate-400 inline-flex items-center gap-1 cursor-not-allowed">
-                Coming Soon &rarr;
+              <a href="/blog/first-aid-box-supplier-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1">
+                Read SEO Buying Guide &rarr;
               </a>
             </div>
           </div>
