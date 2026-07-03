@@ -13,7 +13,8 @@ export default function Home() {
     { title: "Fire Safety & Blankets", cat: "FIRE SAFETY", link: "/blog/fire-safety-equipment-abu-dhabi" }
   ];
 
-  const whatsappLink = "https://wa.me/971561080825"; // 
+  const whatsappLink = "https://wa.me/971561080825";
+
   return (
     <main className="min-h-screen bg-slate-50">
       {/* 1. Header & Top Bar */}
@@ -25,8 +26,9 @@ export default function Home() {
             <a href="#">Our Products</a>
             <a href="#">Why Choose Us</a>
           </nav>
-          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="bg-emerald-600 text-white px-4 py-2 rounded font-bold hover:bg-emerald-700 transition">
-            Whats App
+          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="bg-emerald-600 text-white px-4 py-2 rounded font-bold hover:bg-emerald-700 transition flex items-center gap-2">
+            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.591 5.52 0 10.016-4.496 10.016-10.016 0-5.52-4.496-10.016-10.016-10.016-5.52 0-10.016 4.496-10.016 10.016 0 2.052.569 3.864 1.531 5.567l-1.011 3.693 3.738-.979z"/></svg>
+            WhatsApp
           </a>
         </div>
       </header>
@@ -61,8 +63,9 @@ export default function Home() {
 
       {/* 5. Footer */}
       <footer className="bg-slate-900 text-white p-6 text-sm text-center mt-12">
-        <p className="mb-2">© 2026 Clearway Safety & General Trading L.L.C</p>
-        <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="text-emerald-400 font-bold hover:underline">
+        <p className="mb-4">© 2026 Clearway Safety & General Trading L.L.C</p>
+        <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="text-emerald-400 font-bold hover:underline flex justify-center items-center gap-2">
+          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.591 5.52 0 10.016-4.496 10.016-10.016 0-5.52-4.496-10.016-10.016-10.016-5.52 0-10.016 4.496-10.016 10.016 0 2.052.569 3.864 1.531 5.567l-1.011 3.693 3.738-.979z"/></svg>
           Chat with us on WhatsApp
         </a>
       </footer>
