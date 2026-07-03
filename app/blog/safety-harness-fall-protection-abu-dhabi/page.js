@@ -19,7 +19,7 @@ export default function SafetyHarnessBlog() {
         
         <span className="text-xs font-bold text-amber-600 uppercase tracking-wider">Fall Protection Systems</span>
         <h1 className="text-3xl md:text-4xl font-black text-slate-900 mt-2 mb-4 leading-tight">
-          Industrial Safety Harness &amp; Fall Protection Equipment Supplier in Abu Dhabi, UAE
+          Industrial Safety Harness and Fall Protection Equipment Supplier in Abu Dhabi, UAE
         </h1>
         
         <p className="text-sm text-slate-500 mb-8">Published by Clearway Safety Editorial | Height Safety Compliance</p>
@@ -27,12 +27,12 @@ export default function SafetyHarnessBlog() {
         {/* Content Section */}
         <div className="prose max-w-none text-slate-700 leading-relaxed space-y-6">
           <p>
-            Working at elevated heights demands absolute reliability in fall arrest and restraint systems. As a premier <strong>Safety Harness supplier in Abu Dhabi</strong>, Clearway Safety General Trading L.L.C provides top-tier, international-standard height safety equipment designed to protect personnel across high-rise construction, industrial rigging, refinery maintenance, and offshore operations.
+            Working at elevated heights demands absolute reliability in fall arrest and restraint systems. As a trusted Safety Harness supplier in Abu Dhabi, Clearway Safety General Trading L.L.C offers an extensive inventory of high-performance, international-standard protective gear engineered for maximum durability and comfort.
           </p>
 
           <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">EN Certified Full Body Safety Harnesses for Full Security</h2>
           <p>
-            Adhering to strict international protocols is vital for high-altitude industrial tasks in Mussafah, Al Ain, and across the UAE. Distributed under our leading brand <strong>RYXO Safety</strong>, our full-body fall arrest harnesses provide ergonomic weight distribution, high-tensile alloy steel D-rings, and breathable paddings optimized for the extreme Gulf climate.
+            From the rigorous demands of construction grids in Mussafah to heavy operations in industrial zones, our height safety inventory complies strictly with EN ISO parameters. Marketed under our flagship brand RYXO Safety, these safety harnesses feature high-tensile alloy steel D-rings and advanced breathable paddings to withstand the harsh Gulf climate.
           </p>
 
           {/* Key Product Features Box */}
@@ -41,24 +41,24 @@ export default function SafetyHarnessBlog() {
             <ul className="list-disc pl-5 space-y-2 text-sm text-slate-800">
               <li><strong>Multi-Point Custom Adjustment:</strong> Fully adjustable shoulder, chest, and thigh straps ensuring an optimal secure fit for various worker body profiles.</li>
               <li><strong>Energy Absorbing Lanyards:</strong> Heavy-duty shock absorber packs that immediately cushion and minimize impact forces on the body during an accidental fall.</li>
-              <li><strong>Corrosion-Resistant Hardware:</strong> Drop-forged alloy steel scaffolding hooks and quick-connect buckles engineered for reliable anchoring on structural pipes and scaffolding grids.</li>
+              <li><strong>Corrosion-Resistant Hardware:</strong> Drop-forged alloy steel scaffolding hooks and quick-connect buckles engineered for reliable anchoring on structural pipes.</li>
             </ul>
           </div>
 
           <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Our Comprehensive Height Safety Product Catalog</h2>
           <p>
-            We satisfy the complete safety requirements of site safety managers, civil contractors, and commercial project procurement teams with targeted products:
+            We supply a wide range of sizes and configurations to meet the unique corporate identity and hazard profiles of our clients:
           </p>
           <ul className="list-disc pl-5 space-y-2 mb-6">
             <li>Single D-Ring and Multi-Point Full Body Harnesses for general construction and maintenance.</li>
             <li>Premium Sit and Suspension Harnesses tailored for industrial rope access and wind turbine technicians.</li>
             <li>Twin-Leg Shock Absorbing Webbing Lanyards equipped with large-opening aluminum or steel scaffold hooks.</li>
-            <li>Retractable Fall Arrester Blocks (Self-Retracting Lifelines) in varying lengths (5m to 30m).</li>
+            <li>Retractable Fall Arrester Blocks in varying lengths from 5m to 30m.</li>
             <li>Temporary Horizontal Webbing Lifelines and high-strength anchorage sling connectors.</li>
           </ul>
 
           {/* Technical Specification Table */}
-          <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Technical Specifications &amp; Standards Compliance</h2>
+          <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Technical Specifications and Standards Compliance</h2>
           <div className="overflow-x-auto my-6 border border-slate-200 rounded-xl shadow-sm">
             <table className="min-w-full divide-y divide-slate-200 text-sm">
               <thead className="bg-slate-100 font-bold text-slate-900">
@@ -76,17 +76,17 @@ export default function SafetyHarnessBlog() {
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-semibold">Shock Absorbing Lanyard</td>
-                  <td className="px-4 py-3">Polyester Rope / Tubular Webbing</td>
+                  <td className="px-4 py-3">Polyester Rope or Tubular Webbing</td>
                   <td className="px-4 py-3">EN 355:2002</td>
                 </tr>
                 <tr>
-                  <td className="px-4 py-3 font-semibold">Scaffold Connectors &amp; Hooks</td>
-                  <td className="px-4 py-3">Drop Forged Alloy Steel / Aluminum</td>
+                  <td className="px-4 py-3 font-semibold">Scaffold Connectors and Hooks</td>
+                  <td className="px-4 py-3">Drop Forged Alloy Steel or Aluminum</td>
                   <td className="px-4 py-3">EN 362:2004</td>
                 </tr>
                 <tr>
                   <td className="px-4 py-3 font-semibold">Self-Retracting Lifelines</td>
-                  <td className="px-4 py-3">Galvanized Wire Rope / Poly Steel Cover</td>
+                  <td className="px-4 py-3">Galvanized Wire Rope or Poly Steel Cover</td>
                   <td className="px-4 py-3">EN 360:2002</td>
                 </tr>
               </tbody>
@@ -95,7 +95,7 @@ export default function SafetyHarnessBlog() {
 
           <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Wholesale Fall Protection Distribution Network in Abu Dhabi</h2>
           <p>
-            At Clearway Safety &amp; General Trading, we maintain massive inventory stocks ready for urgent site deployment. Whether you are managing infrastructure projects in Mussafah Industrial Zone, Al Ruwais refinery turnarounds, or civil builds in downtown Abu Dhabi, we offer flexible logistics and steep discounts on wholesale volume orders.
+            At Clearway Safety and General Trading, we maintain massive inventory stocks ready for urgent site deployment. Whether you are managing infrastructure projects in Mussafah Industrial Zone, Al Ruwais refinery turnarounds, or civil builds in downtown Abu Dhabi, we offer flexible logistics and steep discounts on wholesale volume orders.
           </p>
         </div>
 
