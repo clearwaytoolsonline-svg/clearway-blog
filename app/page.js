@@ -179,7 +179,7 @@ export default function Home() {
               </a>
             </div>
 
-            {/* Card 9 (New Reflective Safety Vests Card) */}
+            {/* Card 9 */}
             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
               <div>
                 <span className="text-xs font-bold text-amber-600 uppercase">High-Vis Apparel</span>
@@ -191,21 +191,9 @@ export default function Home() {
               </a>
             </div>
 
-          </div>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="bg-slate-900 text-slate-400 py-12 px-6 border-t border-slate-800">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-          <div>
-            <p className="font-bold text-white text-lg">&copy; 2026 Clearway Safety and General Trading L.L.C.</p>
-            <p className="text-xs mt-1">Mussafah, Abu Dhabi, United Arab Emirates</p>
-          </div>
-          <p className="text-sm">Premium Brand: <span className="text-amber-500 font-bold tracking-wider">RYXO Safety</span></p>
-        </div>
-      </footer>
-
-    </main>
-  )
-}
+            {/* Card 10 (New Safety Harness Card) */}
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-amber-600 uppercase">Fall Protection</span>
+                <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Safety Harness &amp; Gear</h4>
+                <p className
