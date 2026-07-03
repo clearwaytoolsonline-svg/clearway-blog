@@ -1,84 +1,199 @@
-export default function ConvexMirrorsBlog() {
+export default function Home() {
   return (
     <main className="min-h-screen bg-slate-50 text-slate-800 antialiased">
       
-      {/* Mini Header */}
-      <header className="bg-white border-b py-4 px-6 shadow-sm">
-        <div className="max-w-4xl mx-auto flex justify-between items-center">
-          <a href="/" className="text-xl font-black text-slate-900">
-            CLEARWAY <span className="text-amber-600">SAFETY</span>
-          </a>
-          <a href="https://wa.me/971501234567" className="bg-emerald-600 text-white px-4 py-2 rounded-lg font-bold text-sm hover:bg-emerald-700">
-            Inquire Now
+      {/* Top Banner */}
+      <div className="bg-amber-500 text-slate-950 text-center py-2 px-4 text-sm font-semibold">
+        Leading Wholesale and Retail Safety Equipment Supplier across Abu Dhabi and UAE
+      </div>
+
+      {/* Main Header */}
+      <header className="bg-white border-b sticky top-0 z-50 shadow-sm">
+        <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div>
+            <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">
+              CLEARWAY <span className="text-amber-600">SAFETY</span>
+            </h1>
+            <p className="text-xs text-slate-500 uppercase tracking-widest font-bold">General Trading L.L.C</p>
+          </div>
+          <nav className="flex gap-6 font-medium text-slate-600">
+            <a href="#products" className="hover:text-amber-600 transition">Our Products</a>
+            <a href="#about" className="hover:text-amber-600 transition">Why Choose Us</a>
+          </nav>
+          <a href="https://wa.me/971501234567" className="bg-emerald-600 text-white px-5 py-2.5 rounded-lg font-bold hover:bg-emerald-700 transition flex items-center gap-2 shadow-sm text-sm">
+            <span>Get Wholesale Quote</span>
           </a>
         </div>
       </header>
 
-      {/* Blog Article Container */}
-      <article className="max-w-4xl mx-auto py-12 px-6">
-        
-        <span className="text-xs font-bold text-amber-600 uppercase tracking-wider">Site Security & Surveillance</span>
-        <h1 className="text-3xl md:text-4xl font-black text-slate-900 mt-2 mb-4 leading-tight">
-          Industrial Convex Safety Mirrors Supplier in Abu Dhabi, UAE
-        </h1>
-        
-        <p className="text-sm text-slate-500 mb-8">Published by Clearway Safety Editorial | Facility Utilities</p>
-
-        {/* Content Section */}
-        <div className="prose max-w-none text-slate-700 leading-relaxed space-y-6">
-          <p>
-            Blind corners, sharp turns, and intersecting aisles in busy warehouses or loading docks pose serious safety hazards. As a premier <strong>Industrial Convex Safety Mirrors supplier in Abu Dhabi</strong>, Clearway Safety General Trading L.L.C delivers top-tier, impact-resistant traffic and surveillance mirrors engineered to eliminate blind spots and dramatically enhance site visibility.
-          </p>
-
-          <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Unbreakable Wide-Angle Surveillance for Facility Management</h2>
-          <p>
-            Ensuring workplace safety within industrial complexes across Mussafah and Abu Dhabi requires clear overhead visibility. Distributed under our elite brand <strong>RYXO Safety</strong>, our heavy-duty polycarbonate convex mirrors provide an ultra-clear, 130-degree wide-angle view, ensuring forklift operators and pedestrians can see around hidden corners seamlessly.
-          </p>
-
-          {/* Product Highlights Box */}
-          <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8 rounded-r-lg">
-            <h3 className="font-bold text-slate-900 text-lg mb-2">RYXO Convex Safety Mirror Inventory Features:</h3>
-            <ul className="list-disc pl-5 space-y-2 text-sm text-slate-800">
-              <li><strong>Premium Polycarbonate Lens:</strong> Virtually unbreakable lenses that automatically bounce back to their original shape even after hard impacts.</li>
-              <li><strong>Weatherproof ABS Backing:</strong> Heavy-duty, UV-protected orange backing frame that resists intense Gulf heat and desert dust storms.</li>
-              <li><strong>Heavy Adjustable Wall Brackets:</strong> Comes with heavy-duty metal fixtures for seamless wall mounting or pole installation, offering flexible viewing angles.</li>
-            </ul>
-          </div>
-
-          <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Complete Safety Mirror Catalog for the UAE Market</h2>
-          <p>
-            We support procurement managers, safety contractors, and industrial wholesale distributors with multiple mirror design configurations:
-          </p>
-          <ul className="list-disc pl-5 space-y-2 mb-6">
-            <li>Outdoor Convex Traffic Mirrors with protective sun hoods for parking lots and driveways.</li>
-            <li>Indoor Dome and Half-Dome Mirrors for 360-degree warehouse intersection visibility.</li>
-            <li>Under-Vehicle Inspection Mirrors with built-in LED lights for security checkpoints.</li>
-            <li>Stainless Steel Heavy Industrial Mirrors for harsh chemical or offshore oil environments.</li>
-          </ul>
-        </div>
-
-        {/* Call to Action */}
-        <div className="bg-slate-900 text-white p-8 rounded-2xl text-center mt-12 shadow-xl">
-          <h3 className="text-xl md:text-2xl font-bold mb-2">Secure Wholesale Quotes for Convex Safety Mirrors</h3>
-          <p className="text-slate-400 text-sm mb-6 max-w-xl mx-auto">
-            Upgrade your logistics portfolio or expand your retail product line. Connect with Clearway Safety&apos;s customer desk in Abu Dhabi today for exclusive bulk pricing tiers and direct logistics deployment.
+      {/* Hero Section */}
+      <section className="relative bg-slate-900 text-white py-24 px-6 text-center">
+        <div className="max-w-4xl mx-auto">
+          <span className="bg-amber-500/10 text-amber-400 border border-amber-500/20 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+            Abu Dhabi Corporate Safety Partner
+          </span>
+          <h2 className="text-4xl md:text-5xl font-black mt-6 mb-6 leading-tight">
+            Premium Industrial Safety Products and PPE <br />
+            <span className="text-amber-500">Wholesale and Retail Supplier in Abu Dhabi</span>
+          </h2>
+          <p className="text-lg text-slate-400 max-w-2xl mx-auto mb-10">
+            Bulk supply of premium safety equipment, traffic management systems, and high-quality PPE customized for construction, oil, gas, and industrial projects in UAE.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="https://wa.me/971501234567" className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-3 rounded-lg transition text-sm">
-              Inquire via WhatsApp
-            </a>
-            <a href="/" className="bg-slate-800 hover:bg-slate-700 text-white font-bold px-6 py-3 rounded-lg transition text-sm border border-slate-700">
-              Back to Home
+            <a href="#products" className="bg-amber-500 text-slate-950 px-8 py-3.5 rounded-lg font-bold hover:bg-amber-400 transition shadow-lg">
+              Explore 60+ Safety Products
             </a>
           </div>
         </div>
+      </section>
 
-      </article>
+      {/* Highlights */}
+      <section id="about" className="max-w-7xl mx-auto py-16 px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-100 flex gap-4 items-start">
+          <div className="bg-amber-100 p-3 rounded-lg text-amber-600 font-bold text-xl">01</div>
+          <div>
+            <h3 className="text-xl font-bold mb-2 text-slate-900">Wholesale Pricing</h3>
+            <p className="text-slate-600 text-sm">Highly competitive bulk rates customized for large enterprises and retailers in Abu Dhabi.</p>
+          </div>
+        </div>
+        <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-100 flex gap-4 items-start">
+          <div className="bg-amber-100 p-3 rounded-lg text-amber-600 font-bold text-xl">02</div>
+          <div>
+            <h3 className="text-xl font-bold mb-2 text-slate-900">Rapid Abu Dhabi Delivery</h3>
+            <p className="text-slate-600 text-sm">Direct, safe, and immediate logistics supply chain across Mussafah, Al Ain, and all Emirates.</p>
+          </div>
+        </div>
+        <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-100 flex gap-4 items-start">
+          <div className="bg-amber-100 p-3 rounded-lg text-amber-600 font-bold text-xl">03</div>
+          <div>
+            <h3 className="text-xl font-bold mb-2 text-slate-900">Certified Quality Tools</h3>
+            <p className="text-slate-600 text-sm">Every product complies with international and UAE local industrial safety standards.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Products Section */}
+      <section id="products" className="bg-slate-100 py-16 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-extrabold text-slate-900">Our Comprehensive Safety Range</h2>
+            <p className="text-slate-600 mt-2">Professional Industrial Equipment Catalog</p>
+          </div>
+
+          {/* Flexible Grid Layout (Perfect 4x2 Grid on Large Screens) */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            
+            {/* Card 1 */}
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-amber-600 uppercase">Site Utilities</span>
+                <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Anti Slip Tapes</h4>
+                <p className="text-xs text-slate-500 mb-4">Heavy-duty anti-slip tapes, convex mirrors, and heavy rubber speed humps for warehouses.</p>
+              </div>
+              <a href="/blog/anti-slip-tape-supplier-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
+                Explore Range and Specifications →
+              </a>
+            </div>
+
+            {/* Card 2 */}
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-amber-600 uppercase">Traffic Management</span>
+                <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Traffic Cones and Barriers</h4>
+                <p className="text-xs text-slate-500 mb-4">High-visibility reflective PVC traffic cones, warning bollards, and flexible road barricades.</p>
+              </div>
+              <a href="/blog/traffic-safety-cones-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
+                Explore Range and Specifications →
+              </a>
+            </div>
+
+            {/* Card 3 */}
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-amber-600 uppercase">Emergency Care</span>
+                <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">First Aid Boxes and Kits</h4>
+                <p className="text-xs text-slate-500 mb-4">Fully equipped industrial first aid boxes, eye wash stations, and heavy emergency stretchers.</p>
+              </div>
+              <a href="/blog/first-aid-box-supplier-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
+                Explore Range and Specifications →
+              </a>
+            </div>
+
+            {/* Card 4 */}
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-amber-600 uppercase">Personal Protection</span>
+                <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">PPE Equipment</h4>
+                <p className="text-xs text-slate-500 mb-4">Certified industrial safety helmets, high-visibility reflective vests, and safety gloves.</p>
+              </div>
+              <a href="/blog/ppe-safety-helmet-vest-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
+                Explore Range and Specifications →
+              </a>
+            </div>
+
+            {/* Card 5 */}
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-amber-600 uppercase">Warehouse and Fleet</span>
+                <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Heavy Duty Wheel Chocks</h4>
+                <p className="text-xs text-slate-500 mb-4">Premium slip-resistant rubber vehicle stabilization blocks for transport fleets and logistics trucks.</p>
+              </div>
+              <a href="/blog/heavy-duty-wheel-chocks-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
+                Explore Range and Specifications →
+              </a>
+            </div>
+
+            {/* Card 6 */}
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-amber-600 uppercase">Site Visibility</span>
+                <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Safety Warning Flags</h4>
+                <p className="text-xs text-slate-500 mb-4">High-visibility reflective buggy whips, flexible poles, and handheld warning flags for site vehicles.</p>
+              </div>
+              <a href="/blog/safety-warning-flags-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
+                Explore Range and Specifications →
+              </a>
+            </div>
+
+            {/* Card 7 */}
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-amber-600 uppercase">Site Surveillance</span>
+                <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Industrial Convex Mirrors</h4>
+                <p className="text-xs text-slate-500 mb-4">Heavy-duty unbreakable polycarbonate wide-angle mirrors for warehouses, intersections, and blind spots.</p>
+              </div>
+              <a href="/blog/industrial-convex-mirrors-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
+                Explore Range and Specifications →
+              </a>
+            </div>
+
+            {/* Card 8 */}
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-amber-600 uppercase">Workforce Safety</span>
+                <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Industrial Safety Shoes</h4>
+                <p className="text-xs text-slate-500 mb-4">Certified steel-toe protective boots and puncture-resistant safety footwear built for rugged construction environments.</p>
+              </div>
+              <a href="/blog/industrial-safety-shoes-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
+                Explore Range and Specifications →
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </section>
 
       {/* Footer */}
-      <footer className="bg-slate-950 text-slate-500 text-xs text-center py-6 border-t border-slate-900">
-        &copy; 2026 Clearway Safety & General Trading L.L.C. All rights reserved.
+      <footer className="bg-slate-900 text-slate-400 py-12 px-6 border-t border-slate-800">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+          <div>
+            <p className="font-bold text-white text-lg">&copy; 2026 Clearway Safety and General Trading L.L.C.</p>
+            <p className="text-xs mt-1">Mussafah, Abu Dhabi, United Arab Emirates</p>
+          </div>
+          <p className="text-sm">Premium Brand: <span className="text-amber-500 font-bold tracking-wider">RYXO Safety</span></p>
+        </div>
       </footer>
+
     </main>
-  );
+  )
 }
