@@ -77,7 +77,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-extrabold text-slate-900">Our Comprehensive Safety Range</h2>
-            <p className="text-slate-600 mt-2">SEO Guides & Wholesale Catalog for our main inventory</p>
+            <p className="text-slate-600 mt-2">Professional Industrial Equipment Catalog</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -87,7 +87,7 @@ export default function Home() {
               <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Anti Slip Tapes</h4>
               <p className="text-xs text-slate-500 mb-4">Heavy-duty anti-slip tapes, convex mirrors, and heavy rubber speed humps for warehouses.</p>
               <a href="/blog/anti-slip-tape-supplier-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1">
-                Read SEO Buying Guide &rarr;
+                Explore Product Details &rarr;
               </a>
             </div>
 
@@ -97,17 +97,17 @@ export default function Home() {
               <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Traffic Cones & Barriers</h4>
               <p className="text-xs text-slate-500 mb-4">High-visibility reflective PVC traffic cones, warning bollards, and flexible road barricades.</p>
               <a href="/blog/traffic-safety-cones-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1">
-                Read SEO Buying Guide &rarr;
+                Explore Product Details &rarr;
               </a>
             </div>
 
-            {/* Card 3 (Updated with First Aid Kit Blog Link) */}
+            {/* Card 3 */}
             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200">
               <span className="text-xs font-bold text-amber-600 uppercase">Emergency Care</span>
               <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">First Aid Boxes & Kits</h4>
               <p className="text-xs text-slate-500 mb-4">Fully equipped industrial first aid boxes, eye wash stations, and heavy emergency stretchers.</p>
               <a href="/blog/first-aid-box-supplier-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1">
-                Read SEO Buying Guide &rarr;
+                Explore Product Details &rarr;
               </a>
             </div>
           </div>
