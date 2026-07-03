@@ -30,7 +30,7 @@ export default function Home() {
       <section className="relative bg-slate-900 text-white py-24 px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <span className="bg-amber-500/10 text-amber-400 border border-amber-500/20 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
-            Abu Dhabi's Trusted Safety Partner
+            Abu Dhabi’s Trusted Safety Partner
           </span>
           <h2 className="text-4xl md:text-5xl font-black mt-6 mb-6 leading-tight">
             Premium Industrial Safety Products & PPE <br />
@@ -80,7 +80,7 @@ export default function Home() {
             <p className="text-slate-600 mt-2">Professional Industrial Equipment Catalog</p>
           </div>
 
-          {/* Flexible Grid Layout for 5+ Cards */}
+          {/* Flexible Grid Layout */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             
             {/* Card 1 */}
@@ -91,7 +91,7 @@ export default function Home() {
                 <p className="text-xs text-slate-500 mb-4">Heavy-duty anti-slip tapes, convex mirrors, and heavy rubber speed humps for warehouses.</p>
               </div>
               <a href="/blog/anti-slip-tape-supplier-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
-                Explore Range & Specifications &rarr;
+                Explore Range & Specifications →
               </a>
             </div>
 
@@ -103,7 +103,7 @@ export default function Home() {
                 <p className="text-xs text-slate-500 mb-4">High-visibility reflective PVC traffic cones, warning bollards, and flexible road barricades.</p>
               </div>
               <a href="/blog/traffic-safety-cones-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
-                Explore Range & Specifications &rarr;
+                Explore Range & Specifications →
               </a>
             </div>
 
@@ -115,7 +115,7 @@ export default function Home() {
                 <p className="text-xs text-slate-500 mb-4">Fully equipped industrial first aid boxes, eye wash stations, and heavy emergency stretchers.</p>
               </div>
               <a href="/blog/first-aid-box-supplier-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
-                Explore Range & Specifications &rarr;
+                Explore Range & Specifications →
               </a>
             </div>
 
@@ -127,11 +127,11 @@ export default function Home() {
                 <p className="text-xs text-slate-500 mb-4">Certified industrial safety helmets, high-visibility reflective vests, and safety gloves.</p>
               </div>
               <a href="/blog/ppe-safety-helmet-vest-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
-                Explore Range & Specifications &rarr;
+                Explore Range & Specifications →
               </a>
             </div>
 
-            {/* Card 5 (New Wheel Chocks Card) */}
+            {/* Card 5 */}
             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
               <div>
                 <span className="text-xs font-bold text-amber-600 uppercase">Warehouse & Fleet</span>
@@ -139,7 +139,7 @@ export default function Home() {
                 <p className="text-xs text-slate-500 mb-4">Premium slip-resistant rubber vehicle stabilization blocks for transport fleets and logistics trucks.</p>
               </div>
               <a href="/blog/heavy-duty-wheel-chocks-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
-                Explore Range & Specifications &rarr;
+                Explore Range & Specifications →
               </a>
             </div>
 
