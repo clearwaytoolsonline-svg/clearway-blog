@@ -143,6 +143,18 @@ export default function Home() {
               </a>
             </div>
 
+            {/* Card 6 (New Safety Warning Flags Card) */}
+            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+              <div>
+                <span className="text-xs font-bold text-amber-600 uppercase">Site Visibility</span>
+                <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Safety Warning Flags</h4>
+                <p className="text-xs text-slate-500 mb-4">High-visibility reflective buggy whips, flexible poles, and handheld warning flags for site vehicles.</p>
+              </div>
+              <a href="/blog/safety-warning-flags-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
+                Explore Range & Specifications →
+              </a>
+            </div>
+
           </div>
         </div>
       </section>
