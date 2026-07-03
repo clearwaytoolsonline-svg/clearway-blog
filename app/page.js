@@ -26,7 +26,7 @@ export default function Home() {
             <a href="#">Why Choose Us</a>
           </nav>
           <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="bg-emerald-600 text-white px-4 py-2 rounded font-bold hover:bg-emerald-700 transition">
-            Get Wholesale Quote
+            Whats App
           </a>
         </div>
       </header>
