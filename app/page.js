@@ -132,44 +132,4 @@ export default function Home() {
             </div>
 
             {/* Card 5 */}
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
-              <div>
-                <span className="text-xs font-bold text-amber-600 uppercase">Warehouse & Fleet</span>
-                <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Heavy Duty Wheel Chocks</h4>
-                <p className="text-xs text-slate-500 mb-4">Premium slip-resistant rubber vehicle stabilization blocks for transport fleets and logistics trucks.</p>
-              </div>
-              <a href="/blog/heavy-duty-wheel-chocks-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
-                Explore Range & Specifications →
-              </a>
-            </div>
-
-            {/* Card 6 (New Safety Warning Flags Card) */}
-            <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
-              <div>
-                <span className="text-xs font-bold text-amber-600 uppercase">Site Visibility</span>
-                <h4 className="text-lg font-bold text-slate-900 mt-1 mb-3">Safety Warning Flags</h4>
-                <p className="text-xs text-slate-500 mb-4">High-visibility reflective buggy whips, flexible poles, and handheld warning flags for site vehicles.</p>
-              </div>
-              <a href="/blog/safety-warning-flags-abu-dhabi" className="text-sm font-bold text-emerald-600 hover:text-emerald-700 inline-flex items-center gap-1 transition mt-2">
-                Explore Range & Specifications →
-              </a>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="bg-slate-900 text-slate-400 py-12 px-6 border-t border-slate-800">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-          <div>
-            <p className="font-bold text-white text-lg">&copy; 2026 Clearway Safety & General Trading L.L.C.</p>
-            <p className="text-xs mt-1">Mussafah, Abu Dhabi, United Arab Emirates</p>
-          </div>
-          <p className="text-sm">Premium Brand: <span className="text-amber-500 font-bold tracking-wider">RYXO Safety</span></p>
-        </div>
-      </footer>
-
-    </main>
-  )
-}
+            <div className="bg-white p-6 rounded-xl shadow-sm
