@@ -13,6 +13,8 @@ export default function Home() {
     { title: "Fire Safety & Blankets", cat: "FIRE SAFETY", link: "/blog/fire-safety-equipment-abu-dhabi" }
   ];
 
+  const whatsappLink = "https://wa.me/971xxxxxxxxx"; // ഇവിടെ നിങ്ങളുടെ നമ്പർ നൽകുക
+
   return (
     <main className="min-h-screen bg-slate-50">
       {/* 1. Header & Top Bar */}
@@ -24,7 +26,9 @@ export default function Home() {
             <a href="#">Our Products</a>
             <a href="#">Why Choose Us</a>
           </nav>
-          <button className="bg-emerald-600 text-white px-4 py-2 rounded">Get Wholesale Quote</button>
+          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="bg-emerald-600 text-white px-4 py-2 rounded font-bold hover:bg-emerald-700 transition">
+            Get Wholesale Quote
+          </a>
         </div>
       </header>
 
@@ -58,7 +62,10 @@ export default function Home() {
 
       {/* 5. Footer */}
       <footer className="bg-slate-900 text-white p-6 text-sm text-center mt-12">
-        © 2026 Clearway Safety & General Trading L.L.C
+        <p className="mb-2">© 2026 Clearway Safety & General Trading L.L.C</p>
+        <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="text-emerald-400 font-bold hover:underline">
+          Chat with us on WhatsApp
+        </a>
       </footer>
     </main>
   );
