@@ -40,9 +40,9 @@ export default function Home() {
 
       {/* 3. Features Section */}
       <section className="max-w-7xl mx-auto py-12 px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="bg-white p-6 border rounded shadow-sm"><strong>01 Wholesale Pricing</strong></div>
-        <div className="bg-white p-6 border rounded shadow-sm"><strong>02 Rapid Abu Dhabi Delivery</strong></div>
-        <div className="bg-white p-6 border rounded shadow-sm"><strong>03 Certified Quality Tools</strong></div>
+        <div className="bg-white p-6 border rounded shadow-sm"><strong>01 Safety Shop In Mussafah-Abudhabi</strong></div>
+        <div className="bg-white p-6 border rounded shadow-sm"><strong>02 Best Safety Equipments Supplier In Mussafah-Abudhabi</strong></div>
+        <div className="bg-white p-6 border rounded shadow-sm"><strong>03 PPE Store In Mussafah-Abudhabi</strong></div>
       </section>
 
       {/* 4. Product Range Section */}
