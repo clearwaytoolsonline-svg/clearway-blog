@@ -13,8 +13,7 @@ export default function Home() {
     { title: "Fire Safety & Blankets", cat: "FIRE SAFETY", link: "/blog/fire-safety-equipment-abu-dhabi" }
   ];
 
-  const whatsappLink = "https://wa.me/971xxxxxxxxx"; // ഇവിടെ നിങ്ങളുടെ നമ്പർ നൽകുക
-
+  const whatsappLink = "https://wa.me/971561080825"; // 
   return (
     <main className="min-h-screen bg-slate-50">
       {/* 1. Header & Top Bar */}
